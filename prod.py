@@ -1,1 +1,1 @@
-print("This is from prod.")
+print("This is from prod")
