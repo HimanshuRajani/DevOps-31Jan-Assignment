@@ -27,7 +27,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Python File
-        run: Python build.py
+        run: python build.py
     
   test:
     # The type of runner that the job will run on
@@ -47,7 +47,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Python File
-        run: Python test.py
+        run: python test.py
       
   prod:
     # The type of runner that the job will run on
@@ -66,4 +66,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Python File
-        run: Python build.py
+        run: python build.py
